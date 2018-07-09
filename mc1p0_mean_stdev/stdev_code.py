@@ -5,14 +5,12 @@ import numpy as np
 
 # calculate the population standard deviation
 def stdev_p(data):
-    result = 2.0 # your code goes here
     result = (np.array(data)).std()
     return result
 
 
 # calculate the sample standard deviation
 def stdev_s(data):
-    result = 1.9 # your code goes here
     result = (pd.Series(data)).std()
     return result
 
